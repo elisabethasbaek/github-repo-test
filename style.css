@@ -1,3 +1,88 @@
-body{
-    background:yellow;
+@charset "UTF-8";
+/* CSS Document */
+
+*{
+	margin:0;
+	padding:0;
+	box-sizing:border-box;
+	scroll-behavior:smooth;
 }
+
+#wrapper{
+    max-width:1280px;
+    margin:0 auto;
+	font-family:'Montserrat',sans-serif;
+	background:#FFF;
+}
+
+p{
+	-padding-bottom:1em;
+	white-space:pre-line;
+}
+
+img{
+	width:100%;
+	height:auto;
+	display:block; /* removes white space under img (change to inline if necessary) */
+}
+
+a{
+	text-decoration:none;
+	cursor:pointer;
+}
+
+a,
+a:visited{
+	color:#000; 
+} /* makes sure colour won't turn to default before visit or change after visit */
+
+	/* NAVBAR */
+nav ul{
+	display:flex;
+	justify-content:flex-start;
+}
+
+nav li{
+	list-style:none;
+}
+
+nav a{
+	text-decoration:none;
+}
+	/* NAVBAR END */
+
+	
+	/* TABLET */
+@media screen and (max-width:768px){
+	
+}
+
+
+	/* MOBILE */
+@media screen and (max-width:480px){
+	
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
